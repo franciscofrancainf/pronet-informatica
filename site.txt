@@ -1,0 +1,52 @@
+OpenSSH
+https://github.com/franciscofrancainf/pronet-informatica
+https://railway.com/new/github
+https://ap.www.namecheap.com/
+file:///D:/site100326/index.html
+
+-------------
+
+📝 Para atualizar o site no futuro:
+Sempre que quiser fazer alterações:
+
+powershell
+# No VS Code, edite os arquivos
+# Depois no PowerShell:
+
+cd D:\site100326
+git add .
+git commit -m "Descrição das alterações"
+git push
+
+
+
+
+------------
+PS C:\Windows\system32> # Gerar chave usando o caminho completo
+>> C:\Windows\System32\OpenSSH\ssh-keygen.exe -t ed25519 -C "franca.fs29@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (C:\Users\Winter/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\Winter/.ssh/id_ed25519
+Your public key has been saved in C:\Users\Winter/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:sOS/Mn6+OIxp73DkB2HGst34jIZ3qzbQ6mS/HAac2rA franca.fs29@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|                 |
+|     .           |
+|    . B          |
+|   . X *         |
+|  . =.B S        |
+|   =.=.*         |
+|  E **O *        |
+|   o=OB=.o       |
+|   o.=XX=.       |
++----[SHA256]-----+
+PS C:\Windows\system32>
+PS C:\Windows\system32> cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO312DpJzP7DioYwuRzeX+eTRslYhb12oSxbFlNqrbwM franca.fs29@gmail.com
+PS C:\Windows\system32>
+
+-----------------
