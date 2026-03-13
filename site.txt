@@ -6,6 +6,10 @@ file:///D:/site100326/index.html
 
 pronet-informatica-production.up.railway.app
 
+https://railway.com/project/9dc2f0ca-992d-4ff5-bf64-65ce08ee6627/service/31adf632-659b-4166-b645-a2056e853668/settings?environmentId=125876eb-f53a-4cce-a674-6d68aa59920b#networking
+
+
+
 -------------
 
 📝 Para atualizar o site no futuro:
